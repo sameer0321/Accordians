@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300;400;600&family=Rubik:wght@400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.bg-color{
+    background-color:#F6E300;
+}
+.accordion-button{
+    background-color:#FFF03F !important;
+    border: none !important;
+}
+.accordion{
+    /* box-shadow: unset !important; */
+    --bs-accordion-btn-focus-box-shadow: unset !important;
+    --bs-accordion-border-color: none !important;
+    max-width: 922px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accordion-body{
+    background-color: #FFF03F !important;
+}
+.font1{
+    max-width: 866px;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+opacity: 0.7;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.bg-blue{
+    background-color: #000A1A !important;
+}
+.bg-dblue{
+    background-color: #031227 !important;
+}
+.font2{
+    font-family: 'Montserrat', sans-serif !important;
+font-size: 20px !important;
+font-weight: 500 !important;
+line-height: 24px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color: #FFFFFF !important;
+}
+.font3{
+    max-width: 800px;
+    font-family: 'Montserrat', sans-serif !important;
+font-size: 16px !important;
+font-weight: 500 !important;
+line-height: 20px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color: #FFFFFF !important;
+opacity: 0.7 !important;
+}
+.max-width-830{
+    max-width: 830px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.downArrow::after{
+    background-image: url("/assets/images/Vector.png") !important;
+}
+.br-50{
+    border-radius: 50px !important;
+}
+.background-black{
+    background-color:#0C0B0B !important;
+}
+.br-10{
+    border-radius: 10px !important;
+}
+.background-white{
+    background-color: #FFFFFF !important;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.font4{
+font-family: 'Poppins', sans-serif !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 27px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color: #000000;
+}
+
+.box {
+    width: 400px;
+    height: 230px;
+    border-radius: 10px;
+    border: 2px solid #4F5665;
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.font5 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B132A;
+}
+
+.font6 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #4F5665;
+}
+
+.font7 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+
+.font8 {
+    max-width: 340px;
+    height: 150px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0B132A;
+}
+
+.prev {
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+}
+
+.next {
+    border: 2px solid #F53838;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.color {
+    fill: #F53838;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #F53838;
+}
+
+.prev:hover>.color,
+.next:hover>.color {
+    fill: white;
+
+}
+
+.position1 {
+    position: absolute;
+    right: 13%;
+}
+
+.position2 {
+    position: absolute;
+    right: 8%;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: unset !important;
+    color: #F53838 !important;
+    width: 45px;
+    height: 15px;
+    border-radius: 10px;
+    border: 1px solid #F53838;
+    background-color: #F53838;
+    z-index: 1;
+}
+
+.slick-dots li button::before {
+    left: -510px !important;
+    top: 66px !important;
+}
+
+.box:hover {
+    border-color: #F53838;
+}
+
+.slick-current.slick-active {
+    border-color: #F53838;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-60{
+    padding-bottom: 60px;
+}
+.bg-pink{
+    background-color: #FFF7F4;
+}
+.box2{
+    width: 370px;
+height: 270px;
+background-color: #FFFFFF;
+border-radius: 10px;
+}
+.content2{
+    padding: 25px;
+}
+.font9{
+    max-width: 320px;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #7B7B7B;
+}
+.font10{
+font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF5300;
+}
+.font11{
+font-family: 'Poppins', sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #7B7B7B;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.slick-track{
+    display: flex !important;
+    gap: 30px !important;
+}
+.position3 {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+}
+.position4 {
+    position: absolute;
+    right: 2%;
+    top: 15%;
+}
+
+.prev2 {
+    border: 1px solid #373737;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+.next2 {
+    border: 1px solid #373737;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+.next2:hover{
+    border: 1px solid #FF5300;
+}
+.prev2:hover{
+    border: 1px solid #FF5300;
+
+}
+.prev2:hover svg {
+    fill: #F53838;
+}
+.next2:hover svg {
+    fill: #F53838;
+}
+.next3 {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+.prev3 {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+.prev3:hover{
+    background-color: white;
+}
+.next3:hover{
+    background-color: white;
+}
+.next3:hover:hover svg {
+    fill: black;
+}
+.prev3:hover:hover svg {
+    fill: black;
+}
